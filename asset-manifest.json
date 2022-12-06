@@ -1,16 +1,10 @@
 {
   "files": {
-    "main.css": "/popify/static/css/main.073c9b0a.css",
-    "main.js": "/popify/static/js/main.4ab1f950.js",
-    "static/js/787.714ad731.chunk.js": "/popify/static/js/787.714ad731.chunk.js",
-    "static/media/logo.svg": "/popify/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/popify/static/js/main.f5b453a5.js",
     "index.html": "/popify/index.html",
-    "main.073c9b0a.css.map": "/popify/static/css/main.073c9b0a.css.map",
-    "main.4ab1f950.js.map": "/popify/static/js/main.4ab1f950.js.map",
-    "787.714ad731.chunk.js.map": "/popify/static/js/787.714ad731.chunk.js.map"
+    "main.f5b453a5.js.map": "/popify/static/js/main.f5b453a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4ab1f950.js"
+    "static/js/main.f5b453a5.js"
   ]
 }
