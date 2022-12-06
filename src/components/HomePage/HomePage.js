@@ -101,6 +101,32 @@ const HomePage = ({ handleLogout }) => {
                 </div>
               ))}
             </div>
+            <footer>
+        <p>
+          <i>
+            Made by{" "}
+            <b>
+              <a
+                href="https://www.linkedin.com/in/akanksha-bhat-255b4315a/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Akanksha
+              </a>
+            </b>
+            . Powered by{" "}
+            <b>
+              <a
+                href="https://developer.spotify.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Spotify API
+              </a>
+            </b>
+          </i>
+        </p>
+      </footer>
           </>
         ) : (
           <div className='failed-content'>
