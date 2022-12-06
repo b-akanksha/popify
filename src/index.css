@@ -12,17 +12,20 @@ body {
     padding: 16px;
 }
 
-button.button {
+button.button, a.button {
     border: 3px solid #010001;
     border-radius: 25px;
     padding: 10px;
     background-color: #4acace;
     color: #010001;
-    font-weight: 500;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
 }
 
-button.button:hover {
+button.button:hover, a.button:hover {
     border: 3px solid #4acace;
     background-color: #010001;
     color: #4acace;
 }
+

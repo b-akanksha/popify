@@ -4,8 +4,8 @@ import { ErrorBoundary } from 'react-error-boundary';
 import App from './App';
 import ErrorPage from './ErrorBoundary/ErrorPage';
 import { Provider } from "react-redux";
-import './index.css';
 import store from './redux/store';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

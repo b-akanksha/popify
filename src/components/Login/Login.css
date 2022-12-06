@@ -1,0 +1,40 @@
+.login-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page-content.cd-image {
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image {
+    width: 70%;
+}
+
+.login-page-content h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #4acace;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
+}
+
+.login-page-content p {
+    font-weight: 600;
+}
+
+.content-box {
+    border: 3px solid #010001;
+    border-radius: 4px;
+    padding: 16px;
+}
