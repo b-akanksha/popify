@@ -85,7 +85,7 @@ const HomePage = ({ handleLogout }) => {
                 </p>
               </div>
             </div>
-            <h3>--- Popular artists from your playlist ---</h3>
+            <h3>- Popular artists from your playlist -</h3>
             <div className='result_score all_data'>
               {data.slice(0,10).map((item) => (
                 <div className='result_tab' key={item.id}>
