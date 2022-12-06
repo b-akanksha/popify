@@ -14,6 +14,43 @@ const reducer = (state = initialState, action) => {
       return { ...state, loading: true };
     case actionTypes.HIDE_LOADER:
       return { ...state, loading: false };
+    case actionTypes.SET_ARTISTS:
+      return {
+        ...state,
+        userData: { ...state.userData, data: action.payload },
+      };
+    case actionTypes.SET_AVERAGE_SCORE:
+      return {
+        ...state,
+        userData: { ...state.userData, averageScore: action.payload },
+      };
+    case actionTypes.SET_MAX_POPULAR_ARTIST:
+      return {
+        ...state,
+        userData: {
+          ...state.userData,
+          mostPopularArtistScore: action.payload.score,
+          mostPopularArtist: action.payload.artist,
+        },
+      };
+    case actionTypes.SET_MIN_POPULAR_ARTIST:
+      return {
+        ...state,
+        userData: {
+          ...state.userData,
+          leastPopularArtistScore: action.payload.score,
+          leastPopularArtist: action.payload.artist,
+        },
+      };
+    case actionTypes.CLEAR_DATA:
+      return {...state, userData: {
+        data: [],
+        mostPopularArtistScore: 0,
+        leastPopularArtistScore: 0,
+        averageScore: 0,
+        mostPopularArtist: {},
+        leastPopularArtist: {}
+      }}
     default:
       return state;
   }

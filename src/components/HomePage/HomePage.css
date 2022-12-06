@@ -1,0 +1,69 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.logoutContent {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+button.MuiTab-root {
+    font-family: 'Dosis', sans-serif !important;
+    color: #010001;
+}
+
+button.MuiTab-root.Mui-selected {
+    font-weight: 600 !important;
+    color: #010001;
+}
+
+.tabContent {
+    display: flex;
+    flex-direction: column;
+    flex-direction: 1;
+    align-items: center;
+}
+
+.result_score {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artist_image {
+    width: 150px;
+    height: 150px;
+}
+
+.result_tab {
+    border: 2px solid #010001;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.artist-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.all_data {
+    justify-content: center;
+}
+
+.search-image {
+    width: 15%;
+}
+
+.failed-content {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
