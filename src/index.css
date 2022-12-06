@@ -1,0 +1,28 @@
+p {
+    font-size: 16px;
+}
+
+pre {
+    font-size: 14px;
+}
+
+body {
+    color: #010001;
+    font-family: 'Dosis', sans-serif;
+    padding: 16px;
+}
+
+button.button {
+    border: 3px solid #010001;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #4acace;
+    color: #010001;
+    font-weight: 500;
+}
+
+button.button:hover {
+    border: 3px solid #4acace;
+    background-color: #010001;
+    color: #4acace;
+}
