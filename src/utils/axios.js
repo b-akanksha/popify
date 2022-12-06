@@ -3,7 +3,7 @@ import { setAuthHeader } from "./functions";
 
 export const getRequest = async (url, params) => {
   setAuthHeader();
-  return axios.get(`https://api.spotify.com/v1${url}`, params);
+  return axios.get(`https://api.spotify.com/v1/${url}`, params);
 };
 
 
