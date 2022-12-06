@@ -3,7 +3,8 @@ const initialState = {
     alert: {
       open: false,
       message: ''
-    }
+    },
+    loading: false,
   };
   
   export default initialState;
