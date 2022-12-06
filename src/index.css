@@ -10,6 +10,11 @@ body {
     color: #010001;
     font-family: 'Dosis', sans-serif;
     padding: 16px;
+    height: 93vh;
+}
+
+#root {
+    height: 100%;
 }
 
 button.button, a.button {
