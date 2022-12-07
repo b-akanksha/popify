@@ -10,8 +10,8 @@ const Login = () => {
         <img src={cd} alt='CD' className='login-image' />
       </div>
       <div className='login-page-content content-box'>
-        <h1>Popify</h1>
-        <p>How popular are the artists you groove to?</p>
+        <h1>Pop-ify</h1>
+        <p>How popular are the artists and tracks you groove to?</p>
         <a
           className='button'
           href={`${process.env.REACT_APP_AUTH_ENDPOINT}?client_id=${
