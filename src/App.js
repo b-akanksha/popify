@@ -27,7 +27,6 @@ function App() {
   };
 
   React.useEffect(() => {
-    console.log('token', getTokenFromUrl());
     const spotToken = getTokenFromUrl()['access_token'];
 
     window.location.hash = '';
