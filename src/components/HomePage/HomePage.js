@@ -73,7 +73,7 @@ const HomePage = ({ handleLogout }) => {
                 </p>
               </div>
               <div className='result_tab'>
-                <h3>Least Artist</h3>
+                <h3>Least Popular Artist</h3>
                 <img
                   src={leastPopularArtist.images.url}
                   alt='least popular artist'
@@ -85,9 +85,25 @@ const HomePage = ({ handleLogout }) => {
                 </p>
               </div>
             </div>
-            <h3>- Popular artists from your playlist -</h3>
+            <h3>- Top 5 popular artists -</h3>
             <div className='result_score all_data'>
-              {data.slice(0,10).map((item) => (
+              {data.slice(0,5).map((item) => (
+                <div className='result_tab' key={item.id}>
+                  <img
+                    src={item.images.url}
+                    alt='popular artist'
+                    className='artist_image'
+                  />
+                  <p>
+                    <span className='artist-name'>{item.name}</span> (Score:{' '}
+                    {item.popularity})
+                  </p>
+                </div>
+              ))}
+            </div>
+            <h3>- Top 5 least popular artists -</h3>
+            <div className='result_score all_data'>
+              {data.slice(-5).sort((a,b) => a.popularity - b.popularity).map((item) => (
                 <div className='result_tab' key={item.id}>
                   <img
                     src={item.images.url}
